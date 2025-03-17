@@ -33,4 +33,5 @@
 
     <!-- Main CSS File -->
     <link rel="stylesheet" type="text/css" href="css/demo1.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
 </head>

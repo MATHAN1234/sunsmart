@@ -1,3 +1,7 @@
+<div class="sticky-footer sticky-content fix-bottom">
+        
+</div>
+
 <!-- Scroll Top -->
 <a id="scroll-top" href="#top" title="Top" role="button" class="scroll-top"><i class="fas fa-chevron-up"></i></a>
 

@@ -164,24 +164,11 @@
         
     </div>
 
-    <div class="sticky-footer sticky-content fix-bottom">
-        
-    </div>
-    <!-- Scroll Top -->
-    <a id="scroll-top" href="#top" title="Top" role="button" class="scroll-top"><i class="fas fa-chevron-up"></i></a>
-
-    <?PHP include "include/mobilemenu.php"?>
     
-    <!-- Plugins JS File -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/parallax/parallax.min.js"></script>
-    <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="vendor/elevatezoom/jquery.elevatezoom.min.js"></script>
-
-
-    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
-    <!-- Main JS File -->
-    <script src="js/main.js"></script>
+    
+    <?PHP include "include/mobilemenu.php"?>
+    <?PHP include "include/script.php"?>
+    
 </body>
 
 </html>
