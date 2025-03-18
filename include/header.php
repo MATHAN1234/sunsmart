@@ -32,11 +32,11 @@
                 <nav class="main-nav">
                         <ul class="menu">
                             <li class="active">
-                                <a href="#">Home</a>
+                                <a href="index.php">Home</a>
                             </li>
 
                             <li>
-                                <a href="#">live information</a>
+                                <a href="live_information.php">live information</a>
                             </li>
 
                             <li>

@@ -32,7 +32,13 @@
             }
 
             // OpenWeather API for UV Index
-            $apiKey = getenv("API_KEY"); // Replace with your actual API key
+            $env = parse_ini_file(__DIR__ . "/.env");
+
+            $apiKey = $env['API_KEY'] ?? null;
+
+            if (!$apiKey) {
+                die("⚠️ API Key is missing! Check .env file.");
+            }
             $uvIndex = 0;
             $apiUrl = "https://api.openweathermap.org/data/2.5/uvi?appid=$apiKey&lat=$latitude&lon=$longitude";
 

@@ -20,7 +20,7 @@
                         'items': 1,
                         'autoplay': true,
                         'autoplayTimeout': 8000
-                    }">
+                        }">
                         <div class="banner banner-fixed intro-slide1" style="background-color: #dddee0;">
                             <figure>
                                 <div class="slide-effect">
@@ -77,7 +77,7 @@
                                     <p class="slide-animate ls-m text-dark font-primary mb-6"
                                         data-animation-options="{'name': 'fadeInUpShorter', 'duration': '1.2s', 'delay': '1s'}">
                                         Instant Access – No Signup Needed!</p>
-                                    <a href="#" class="btn btn-outline btn-dark slide-animate"
+                                    <a href="personalized_link.php" class="btn btn-outline btn-dark slide-animate"
                                         data-animation-options="{'name': 'fadeInUpShorter', 'duration': '1s', 'delay': '1.8s'}">GET MY LINK NOW</a>
                                 </div>
                             </div>
@@ -148,9 +148,64 @@
                         'delay': '.3s'
                     }">
                     <div class="container pt-3">
-                        <h2 class="title">Browse Our features</h2>
+                        <h2 class="title">Browse Our Features</h2>
                         <div class="row">
-                            
+                            <!-- <div class="col-md-3 col-6 mb-4">
+                                <div
+                                    class="category category-default category-default-1 category-absolute overlay-zoom">
+                                    <a href="#">
+                                        <figure class="category-media">
+                                            <img src="images/demos/demo1/categories/category1.jpg" alt="category"
+                                                width="280" height="280" />
+                                        </figure>
+                                    </a>
+                                    <div class="category-content">
+                                        <h4 class="category-name"><a href="shop.html">Accessories</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 mb-4">
+                                <div
+                                    class="category category-default category-default-1 category-absolute overlay-zoom">
+                                    <a href="#">
+                                        <figure class="category-media">
+                                            <img src="images/demos/demo1/categories/category2.jpg" alt="category"
+                                                width="280" height="280" />
+                                        </figure>
+                                    </a>
+                                    <div class="category-content">
+                                        <h4 class="category-name"><a href="shop.html">Fashion 2020</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 mb-4">
+                                <div
+                                    class="category category-default category-default-1 category-absolute overlay-zoom">
+                                    <a href="#">
+                                        <figure class="category-media">
+                                            <img src="images/demos/demo1/categories/category3.jpg" alt="category"
+                                                width="280" height="280" />
+                                        </figure>
+                                    </a>
+                                    <div class="category-content">
+                                        <h4 class="category-name"><a href="shop.html">Watches</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 mb-4">
+                                <div
+                                    class="category category-default category-default-1 category-absolute overlay-zoom">
+                                    <a href="#">
+                                        <figure class="category-media">
+                                            <img src="images/demos/demo1/categories/category4.jpg" alt="category"
+                                                width="280" height="280" />
+                                        </figure>
+                                    </a>
+                                    <div class="category-content">
+                                        <h4 class="category-name"><a href="shop.html">Shoes</a></h4>
+                                    </div>
+                                </div>
+                            </div> -->
                         </div>
                     </div>
                 </section>

@@ -27,7 +27,11 @@
             </li>
 
             <li>
-                <a href="#">live information</a>
+                <a href="personalized_link.php">Personalized link/a>
+            </li>
+
+            <li>
+                <a href="live_information.php">live information</a>
             </li>
 
             <li>
