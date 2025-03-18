@@ -1,7 +1,7 @@
 <?php
 // Define available city files
 $city_files = [
-    "Adelaide" => "csv/uv-adelaide-2023.csv",
+    "Adelaide1" => "csv/uv-adelaide-2023.csv",
     "Brisbane" => "csv/uv-brisbane-2023.csv",
     "Canberra" => "csv/v-canberra-2023.csv",
     "Darwin" => "csv/uv-darwin-2023.csv",
