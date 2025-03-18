@@ -121,8 +121,8 @@ $city_image = $city_images[$selected_city] ?? $city_images["Melbourne"];
                                 </div>
                             </article>
                         </div>
-                        <aside class="col-lg-3 right-sidebar blog-sidebar sidebar-fixed sticky-sidebar-wrapper">
-                            <div class="sidebar-content">
+                        <div class="col-lg-3">
+                            <!-- <div class="sidebar-content"> -->
                                 <div class="sticky-sidebar">
                                     <div class="shipping-address pb-4">
                                         <label>Select City:</label>
@@ -162,8 +162,8 @@ $city_image = $city_images[$selected_city] ?? $city_images["Melbourne"];
 
                                     </div>
                                 </div>
-                            </div>
-                        </aside>
+                            <!-- </div> -->
+                        </div>
                     </div>
                 </div>
 
@@ -172,7 +172,7 @@ $city_image = $city_images[$selected_city] ?? $city_images["Melbourne"];
             <script>
                 function updateCity() {
                     let city = document.getElementById("city").value;
-                    window.location.href = "live_informationa.php?city=" + city;
+                    window.location.href = "live_information.php?city=" + city;
                 }
             </script>
         </main>
