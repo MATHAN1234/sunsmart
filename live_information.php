@@ -48,10 +48,13 @@ if ($uvResponse !== false) {
 $uvAdvice = "";
 if ($uvIndex < 3) {
     $uvAdvice = "UV is low, minimal protection needed.";
+    $cream_needed = "0.5 Table Spoon Needed";
 } elseif ($uvIndex >= 3 && $uvIndex < 6) {
     $uvAdvice = "Moderate UV, wear SPF 30+ sunscreen and sunglasses.";
+    $cream_needed = "1 Table Spoon Needed";
 } else {
     $uvAdvice = "High UV! Apply SPF 50+, wear protective clothing.";
+    $cream_needed = "2 Table Spoon Needed";
 }
 
 // Sun Protection Tips
@@ -117,6 +120,9 @@ $city_image = $city_images[$selected_city] ?? $city_images["Melbourne"];
                                         <p><?php echo $uvAdvice; ?></p>
                                         <h3>Sun Protection Tips:</h3>
                                         <p><?php echo $sun_tips; ?></p>
+
+                                        <h3>SunScreen Needed</h3>
+                                        <p><?php echo $cream_needed; ?></p>
                                     </div>
                                 </div>
                             </article>
